@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    outline: none;
+    transition: .5s ease-in-out;
+    
+}
+:root {
+    --background-color: rebeccapurple;
+    --background1-color: rebeccapurple;
+    --text-color: #fff;
+    --text2-color: #fff;
+    --hover-color: rgb(69, 4, 134);
+    --hover2-color: rgb(69, 4, 134);
+    --a-color: rgb(6, 232, 6);
+    --fas-color: rgb(0, 255, 51);
+    --testimonial-color: rebeccapurple;
+    --testimonial-color2: rebeccapurple;
+    --acor-color: #5b5050;
+    --skill-color: #6d6994;
+    --text-container: #000;
+    --testi-container: rgb(0, 255, 51);
+    --s-color: rgb(0, 255, 51);
+ /*Toggle color css
+ ================*/
+}
+:root .active {
+    --background-color: rebeccapurple;
+    --background1-color: rgb(0, 255, 51);
+    --background: #000;
+    --fa-background: red; 
+    --fas-color: rgb(0, 255, 51);
+    --hover-color: rgb(0, 255, 51);
+    --text-container:  rebeccapurple;
+    --skill-color: rgb(79, 56, 101);
+    --text-color: rgb(0, 255, 51);
+    --text2-color: rebeccapurple;
+    --a-color: rgb(69, 4, 134);
+    --testimonial2-color: rgb(6,232,6);
+
+
+}
+body {
+    background: var(--background);
+}
+
+
+
+/* End Toggle color css
+ ================*/
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.display3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.display2 {
+    display: flex;
+    justify-content: center;
+}
+.gap {
+    gap: 10rem;
+}
+.gap2 {
+    gap: 5rem;
+}
+
+.gap3 {
+    gap: 1rem;
+}
+.block {
+    display: block;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-row-gap: 50px;
+    grid-column-gap: 17px;
+    
+}
+.sect {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 140px; 
+    
+}
+
